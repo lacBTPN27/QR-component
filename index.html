@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+ 
+  <title>Frontend Mentor | QR code component</title>
+  <style>
+      * {
+        margin: 0;
+        padding: 0;
+        background-color: #d5e1ef;
+      }
+
+      .QR-code {
+        width: 295px;
+        height: 465px;
+        background-color: hsl(0, 0%, 100%);
+        position: relative;
+        text-align: center;
+        top: 80px;
+        left: 550px;
+        border-radius: 15px;
+      }
+
+      .QR-img {
+        width: 267px;
+        margin-top: 16px;
+        margin-left: 1px;
+        border-radius: 15px;
+      }
+      .QR-information {
+        width: 263px;
+        margin: 20px 13px;
+        text-align: center;
+        font-size: 16px;
+        background: none;
+        padding: 0 4px;
+      }
+      .paragraph-1 {
+        color:  hsl(218, 44%, 22%);
+        font-size: 20px;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+      }
+      .paragraph-2 {
+        font-weight: 400;
+        opacity: 0.6;
+        color: black
+      }
+
+      @media screen and (min-width: 375px) and (max-width: 740px) {
+         .QR-code {
+          left: 58px;
+         }
+      }
+       @media screen and (min-width: 1024px) {
+         .QR-code {
+          left: 625px;
+         }
+      }
+  </style>
+</head>
+<body>
+        <div class="QR-code">
+          <img class="QR-img" src="/qr-code-component-main/images/image-qr-code.png" alt="QR-code-image">
+          <p class="QR-information paragraph-1">Improve your front-end <br> skills by building projects</p>
+          <p class="QR-information paragraph-2">Scan the QR code to visit Frontend <br> Mentor and take your coding skills to <br> the next level</p>
+        </div>
+</body>
+</html>
