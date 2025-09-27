@@ -61,9 +61,9 @@
 }
 }
 
-@media only screen and (min-width: 740px) and (max-width: 1024px) {
+@media only screen and (min-width: 741px) and (max-width: 1023px) {
     .qr-code {
-    left: 285px;
+    left: 230px;
 }
 }
 
